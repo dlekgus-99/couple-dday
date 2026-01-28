@@ -1,28 +1,42 @@
 html, body {
-margin: 0;
-padding: 0;
-height: 100%;
-font-family: "Pretendard Variable", Pretendard, sans-serif;
-background: transparent;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Pretendard Variable", Pretendard, sans-serif;
+  background: transparent;
 }
+
 body {
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+/* 화면 대비 여백이 항상 일정하게 */
 .card {
-text-align: center;
-padding: 24px 28px;
-border-radius: 16px;
-background: transparent;
+  width: 100vw;
+  height: 100vh;
+  padding: 6vmin;
+  box-sizing: border-box;
+  text-align: center;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+/* 제목은 적당히 */
 .title {
-font-size: 16px;
-color: #000;
-margin-bottom: 10px;
+  font-size: clamp(18px, 5vmin, 44px);
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 2vmin;
 }
+
+/* 숫자는 크게 */
 .dday {
-font-size: 40px;
-font-weight: bold;
-color: #000;
+  font-size: clamp(44px, 14vmin, 140px);
+  font-weight: 900;
+  color: #000;
+  line-height: 1.1;
 }
