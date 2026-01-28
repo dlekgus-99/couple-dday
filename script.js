@@ -17,8 +17,13 @@ function calculateDday(startDateStr) {
   return diffDays;
 }
 
-const start = getQueryParam("start") || "20260114";
-const title = getQueryParam("title") || "함께한 지";
+const start = getQueryParam("start");
+const title = getQueryParam("title");
+
+if (!start || !title || !/^\d{8}$/.test(start)) {
+  document.body.innerHTML = "";
+  throw new Error("Invalid access");
+}
 
 document.getElementById("title").innerText = title;
 document.getElementById("dday").innerText = "D+" + calculateDday(start);
