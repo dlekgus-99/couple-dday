@@ -15,6 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -27,5 +28,5 @@ body {
 .counter {
   font-size: 22vw;
   color: #000;
-  margin-top: 2vh;
+  margin-top: 0;
 }
