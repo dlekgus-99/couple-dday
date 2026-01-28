@@ -12,7 +12,6 @@ body {
   align-items: center;
 }
 
-/* 화면 대비 여백이 항상 일정하게 */
 .card {
   width: 100vw;
   height: 100vh;
@@ -25,7 +24,6 @@ body {
   justify-content: center;
 }
 
-/* 제목은 적당히 */
 .title {
   font-size: clamp(18px, 5vmin, 44px);
   font-weight: 400;
@@ -33,7 +31,6 @@ body {
   margin-bottom: 2vmin;
 }
 
-/* 숫자는 크게 */
 .dday {
   font-size: clamp(44px, 14vmin, 140px);
   font-weight: 900;
