@@ -12,19 +12,24 @@ body {
   width: 100%;
   padding: 5vmin;
   box-sizing: border-box;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
 .content {
-  font-size: 10vw;
+  font-size: 11vw;
+  font-weight: 400;
   color: #000;
+  margin-bottom: 2vmin;
 }
 
 .counter {
   font-size: 22vw;
   color: #000;
-  margin-top: 2vh;
+  margin-top: 0;
+  line-height: 1;
 }
