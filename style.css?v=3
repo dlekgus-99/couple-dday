@@ -11,7 +11,7 @@ body {
 
 .title {
   font-size: 16px;
-  color: #000;
+  color: #282932;
   margin-bottom: 8px;
 }
 
