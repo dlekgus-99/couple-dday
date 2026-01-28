@@ -2,16 +2,22 @@ body {
   margin: 0;
   font-family: "Pretendard Variable", Pretendard, sans-serif;
   font-weight: 900;
-  height: 100vh;
+
+  /* 모바일 대응 중앙 정렬 */
+  min-height: 100svh; /* 최신 브라우저용 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-  height: 100%;
-  padding: 3% 5%;
+  width: 100%;
+  padding: 5vmin;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-sizing: border-box;
+  text-align: center;
 }
 
 .content {
@@ -22,8 +28,5 @@ body {
 .counter {
   font-size: 22vw;
   color: #000;
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  margin-top: 2vh;
 }
