@@ -21,12 +21,12 @@ body {
 
 .title {
   font-size: 16px;
-  color: #333;
+  color: #000;
   margin-bottom: 10px;
 }
 
 .dday {
   font-size: 40px;
   font-weight: bold;
-  color: #ff4d6d;
+  color: #000;
 }
