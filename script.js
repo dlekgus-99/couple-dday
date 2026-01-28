@@ -21,7 +21,7 @@ const start = getQueryParam("start");
 const title = getQueryParam("title");
 
 if (!start || !title || !/^\d{8}$/.test(start)) {
-  window.location.replace("about:blank"); 
+  window.location.replace("about:blank");
   throw new Error("Invalid access");
 }
 
