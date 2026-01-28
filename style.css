@@ -1,30 +1,22 @@
 body {
   margin: 0;
+  background: transparent;
   font-family: "Pretendard Variable", Pretendard, sans-serif;
-  font-weight: 900;
-  min-height: 100svh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.container {
-  width: 100%;
-  padding: 5vmin;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.card {
   text-align: center;
+  padding: 20px;
 }
 
-.content {
-  font-size: 10vw;
-  color: #000;
+.title {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 8px;
 }
 
-.counter {
-  font-size: 22vw;
-  color: #000;
-  margin-top: 2vh;
+.dday {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000000;
 }
