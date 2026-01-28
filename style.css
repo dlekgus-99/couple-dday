@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background: transparent;
+  font-family: 'Arial', sans-serif;
+}
+
+.card {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.dday {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ff4d6d;
+}
